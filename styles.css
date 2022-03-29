@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(227, 244, 245);
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font: 16px bold #3c7274;
+}
+p {
+  font-size: 16px;
+}
+ul {
+  list-style: disc;
+}
+ol {
+  list-style-type: style;
+}
+.header-border {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: black;
+  margin: 0 auto;
+  padding: 20 px;
+}
+.main-border {
+  border: 3px solid;
+  border-radius: 3px;
+  border-color: blueviolet;
+  margin: 5px;
+  padding: 20px;
+}
+.dashed-border {
+  border: 3px dashed #3c7274;
+  font: 12px normal;
+  padding: 10px;
+  margin: 20px;
+}
+.black-border {
+  border: 5px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+#green-background {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+}
+#pink-background {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+}
+.image-size {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border: 3px;
+  margin: 20px, 10px;
+}
+.link-pages {
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+}
+.navbar {
+  margin: 0x;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(99, 107, 104);
+}
+.navbar li {
+  float: left;
+  list-style-type: none;
+}
+.navbar li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: beige;
+}
+.navbar li a:hover {
+  background-color: black;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: lightskyblue;
+    color: rgb(18, 19, 19);
+    line-height: 2em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .dashed-border .link-pages {
+    display: block;
+  }
+  .dashed-border h2,
+  button,
+  ul {
+    color: black;
+  }
+  .dashed-border ul {
+    font-size: 1rem;
+  }
+  .dashed-border h2 {
+    text-align: center;
+  }
+}
