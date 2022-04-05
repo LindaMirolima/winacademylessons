@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exersice part 1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main>
+        <form name="chefspost" method="post" data-netlify="true">
+            <label>Naam: <input type="text" /></label><br>
+            <label>Email: <input type="email" /></label><br>
+            <label>Tel: <input type="tel" /></label><br>
+            <label>Age: <input type="number" /></label><br>
+            <label>Date of birth: <input type="date" /> </label><br>
+            <label>Gender: <br><input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="male">Female</label><br>
+            </label>
+            <label>Favorite cuisine: <br><input type="checkbox" id="french" name="cuisine" value="french">
+                <label for="french">French</label><br>
+                <input type="checkbox" id="italian" name="cuisine" value="italian">
+                <label for="italian">French</label><br>
+                <input type="checkbox" id="spanish" name="cuisine" value="spanish">
+                <label for="spanish">Spanish</label><br>
+                <input type="checkbox" id="arabic" name="cuisine" value="arabic">
+                <label for="arabic">Arabic</label><br>
+            </label>
+            <label>Favorit apron color: <input type="color"/></label><br>
+            <label>Biography: <br> <textarea rows="10" width="1000px"></textarea></label><br>
+            <label>Upload your latest recipe: <input type="file"/> </label><br>
+            <label>Recipe website: <input type="url"/> </label><br>
+            <input type="reset"/>
+            <input type="submit"/>
+        </form>
+    </main>
+</body>
+</html>
